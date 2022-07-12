@@ -2,7 +2,7 @@ package scopeFunctions
 
 /**
  * scope function: with
- * property 1: Refer to context object using this
+ * property 1: Refer to context object using 'this'
  * property 2: The return value is the 'lambda result'
  * */
   class Person{
