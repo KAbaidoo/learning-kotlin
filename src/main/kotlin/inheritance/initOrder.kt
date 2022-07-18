@@ -19,7 +19,7 @@ open class Test(val name: String) {
     open val size: Int = name.length.also { println("initializing size in Test class: $it") }
 }
 
-class Chemistry(name: String, val otherName: String) :
+class Chemistry(name: String,  otherName: String) :
     Test(name.replaceFirstChar { it.uppercase() }.also { println("argument for Test class: $it") }) {
     init { println("Initializing a Chemistry class") }
 
