@@ -1,5 +1,5 @@
 package modifiers
-abstract class LivingThing{
+abstract class LivingThing{     //you cannot create an instance of abstract class
     open var type:String = ""   //normal property can be overridden
     abstract var name:String   //abstract property cannot be instantiated
 
@@ -10,7 +10,7 @@ abstract class LivingThing{
     fun grow(){ // a normal fun is public and final by default
 
     }
-    abstract fun move() //abstract fun doesn't have any body
+    abstract fun move() //abstract fun doesn't have anybody
 
 
 
@@ -19,9 +19,7 @@ abstract class LivingThing{
 
 class Plant : LivingThing(){       //subclass or derived class
     override var type: String = "plant"
-    override var name: String
-        get() = TODO("Not yet implemented")
-        set(value) {}
+    override var name: String = "name"
 
     override fun reproduce() {
     }
