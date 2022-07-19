@@ -1,4 +1,4 @@
-package interfaces
+package classes_and_objects
 
 import java.util.function.IntPredicate
 

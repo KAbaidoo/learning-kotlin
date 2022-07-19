@@ -1,4 +1,4 @@
-package modifiers
+package classes_and_objects
 
 /*
 all classes and methods in kotlin are public and final by default

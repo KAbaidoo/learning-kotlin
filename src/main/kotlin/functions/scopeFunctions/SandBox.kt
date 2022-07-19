@@ -1,4 +1,4 @@
-package scopeFunctions
+package functions.scopeFunctions
 
 
 class Car {

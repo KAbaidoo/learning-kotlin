@@ -1,4 +1,4 @@
-package modifiers
+package classes_and_objects
 /*
 * interfaces can contain NORMAL and AbSTRUCT methods
 * but contain only ABSTRACT properties

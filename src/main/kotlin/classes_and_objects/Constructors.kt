@@ -1,7 +1,5 @@
 package inheritance
 
-import scopeFunctions.Car
-
 fun main() {
     val myCar = Car("Sedan", "Mercedes-Benz")
     with(myCar) {

@@ -1,4 +1,4 @@
-package scopeFunctions
+package functions.scopeFunctions
 
 /**
  * scope function: also - mainly when we want to perform additional operations on an object after init

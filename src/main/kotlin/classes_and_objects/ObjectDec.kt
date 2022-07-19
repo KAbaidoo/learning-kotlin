@@ -1,4 +1,4 @@
-package modifiers
+package classes_and_objects
 
 /*
     - Kotlin 'object'  declaration. It is an alternative to STATIC in Java
