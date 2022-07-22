@@ -1,11 +1,11 @@
 package functions
 
-import jdk.internal.org.jline.utils.Colors.s
+
 
 /*
 *   ==============================================
 *       Closures,'it' keyword, 'With' & 'Appy
-* ================================================
+*   ==============================================
 *   -Closures: In Kotlin you can modify outside variables with Lambdas.
 *
 * */
@@ -15,7 +15,7 @@ class ProgramI {
         action(a, b)  // result = x + y = a + b = 2 + 7 = 9
     }
 
-    fun reveseAndDispaly(str: String, myFunc: (String) -> String) {
+    fun reverseAndDispaly(str: String, myFunc: (String) -> String) {
         var result = myFunc(str)
         println(result)
     }
@@ -37,7 +37,7 @@ fun main() {
 //    =================
     val program = ProgramI()
 //    program.reveseAndDispaly("hello", {s-> s.reversed()})
-    program.reveseAndDispaly("hello", { it.reversed() }) // when the parameter is only one we can use only 'it'
+    program.reverseAndDispaly("hello", { it.reversed() }) // when the parameter is only one we can use only 'it'
     // 'it' is the implicit name for the single parameter
 
 //    =================
