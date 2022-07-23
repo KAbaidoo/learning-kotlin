@@ -15,7 +15,7 @@ val isEven = object : SAMInterfaces {
     }
 
     // Creating an instance using lambda
-    val isEven = IntPredicate { it % 2 == 0 }
+    val isEven = SAMInterfaces { it % 2 == 0 }
 
 
 }
