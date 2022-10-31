@@ -9,7 +9,7 @@ package null_safety
 *   -   used for both nullable or non-nullable
 * */
 //val pi:Float = 3.14f    //waste of memory
-val pi:Float by lazy{3.14f}     //waste of memory
+val pi:Float by lazy{3.14f}     //lazy loading
 
 fun main() {
 
